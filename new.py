@@ -12,7 +12,7 @@ import sqlite3
 from langchain_cohere import CohereEmbeddings
 
 def get_embedding_function():
-    embeddings = CohereEmbeddings(cohere_api_key="yLa4P1FNzncjNN90YZGTukQciYi2NtZs85WiavFY")
+    embeddings = CohereEmbeddings(cohere_api_key="yLa4P1FNzncjNN90YZGTukQciYi2NtZs85WiavFY","embed-english-v3.0")
     return embeddings
 
 groq_client = Groq(api_key="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")
